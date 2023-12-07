@@ -107,7 +107,7 @@ nieto(X, Y) :- abuelo(Y, X); abuela(Y, X).
 % Definimos reglas para determinar si alguien es tío(a) o sobrino(a)
 tio(X, Y) :- padre(Z, Y), hermano(Z, X); madre(Z, Y), hermano(Z, X).
 sobrino(X, Y) :- tio(Y, X).
-
+´´´
 
 ## Listas
 
